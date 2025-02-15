@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
-import { signInSuccess } from '../redux/User/userSlice.js';
+import { signInSuccess } from '../redux/user/userSlice.js';
 
 const AdminLogin = () => {
   const [rollNumber, setRollNumber] = useState('');
